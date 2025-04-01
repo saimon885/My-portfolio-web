@@ -286,3 +286,136 @@ h2{
     text-decoration: none;
     color: black;
 }
+
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .logo img {
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .brand-name {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        gap: 10px;
+    }
+
+    .menu a {
+        font-size: 20px;
+        padding: 10px;
+        display: block;
+    }
+
+    .btn {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .left-side {
+        width: 100%;
+        margin-top: 20px;
+        position: static;
+        text-align: center;
+    }
+
+    .my-img {
+        margin: 20px auto;
+        width: 100%;
+        text-align: center;
+        position: static;
+    }
+
+    .my-img img {
+        width: 80%;
+    }
+
+    .menu2 {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .div {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .menu3 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .right--side, .left--side {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .right--side img {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .left--side h3, .left--side h4, .left--side p {
+        font-size: 18px;
+    }
+
+    .menu4 {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .menu4 .row {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .menu5 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rightside, .leftside {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .leftside img {
+        width: 90%;
+        height: auto;
+    }
+
+    .menu6 {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .menu6 .part1, .menu6 .part2 {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .menu6 .part2 a {
+        font-size: 20px;
+        padding: 10px;
+        display: block;
+    }
+}
+
